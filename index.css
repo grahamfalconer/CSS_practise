@@ -1,16 +1,34 @@
 
-@font-face {
-  src: url(fonts/3dlet.ttf);
-  font-family: 'threeDee';
-}
-
 .centered{
   margin: auto;
   width: 50%;
   padding: 10px;
 }
 
+.itemsCentered{
+  text-align: center;
+  align-items: center;
+}
+
 #name{
   font-family: threeDee;
-  font-size: 180px;
+  font-size: 6rem;
+}
+
+.dynamicBackground{
+  background-color: coral;
+  color: aqua;
+  animation-name: colourChanger;
+  animation-duration: 20s;
+}
+
+@font-face {
+  src: url(fonts/3dlet.ttf);
+  font-family: 'threeDee';
+}
+
+@keyframes colourChanger {
+  from {background-color: steelblue;}
+  to {background-color: coral;
+  }
 }
