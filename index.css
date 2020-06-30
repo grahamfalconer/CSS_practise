@@ -14,14 +14,13 @@ a{
 }
 
 a:hover{
-  color: rgb(57, 204, 140);
   padding: 5px;
   border-radius: 5px;
   background-color: khaki;
   border: black;
   cursor: pointer;
   animation-name: growOnHover;
-  font-size: 175%;
+  font-size: 107%;
   animation-duration: 2s;
 }
 
@@ -29,7 +28,7 @@ a:hover{
   font-family: africa-large;
   opacity: 100%;
   background-color: transparent;
-  filter: contrast(180%);
+  filter: contrast(200%);
   color: wheat;
 }
 
@@ -52,6 +51,12 @@ a:hover{
 #name{
   font-family: africa-large;
   font-size: 225%;
+  background-color: chocolate;
+}
+
+#tagline{
+  font-family: africa;
+  font-size: 100%;
 }
 
 #myVideo {
@@ -119,17 +124,13 @@ a:hover{
   to {color: rgb(57, 204, 140);}
 
 
-  from {font-size: 50%;}
+  from {font-size: 100%;}
   to {font-size: 225%;}
 }
 
 @keyframes growOnHover {
-  from {color: black;}
-  to {color: navy;}
-
-
   from {font-size: 100%;}
-  to {font-size: 175%;}
+  to {font-size: 107%;}
 
   from {opacity: 20%;}
   to {opacity: 100%;}
