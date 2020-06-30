@@ -125,7 +125,7 @@ a:hover{
 
 @keyframes growOnHover {
   from {color: black;}
-  to {color: rgb(57, 204, 140);}
+  to {color: navy;}
 
 
   from {font-size: 100%;}
