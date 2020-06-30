@@ -5,15 +5,28 @@ body{
   font-family: new-curly;
 }
 
+a:hover{
+  background-color: black;
+  border: black;
+  cursor: pointer;
+  animation-name: colourChanger;
+  font-size: 200%;
+  animation-duration: 5s;
+}
+
 .textBox{
-  opacity: 80%;
-  background-color: darkolivegreen;
+  font-family: africa-large;
+  opacity: 100%;
+  background-color: transparent;
   filter: contrast(180%);
   color: wheat;
 }
 
 .navbar{
   color: aquamarine;
+}
+h1{
+  display: inline;
 }
 
 .centered{
@@ -28,8 +41,8 @@ body{
 }
 
 #name{
-  font-family: new-curly-bold;
-  font-size: 100%;
+  font-family: africa-large;
+  font-size: 225%;
 }
 
 #myVideo {
@@ -42,7 +55,7 @@ body{
 
 .dynamicText{
   color: rgb(57, 204, 140);
-  font-size: 125%;
+  font-size: 100%;
   animation-name: colourChanger;
   animation-duration: 2.5s;
 }
@@ -52,6 +65,16 @@ body{
 @font-face {
   src: url(fonts/3dlet.ttf);
   font-family: 'threeDee';
+}
+
+@font-face{
+  src: url(fonts/Afrika\ Safari\ Rebuild\ St.ttf);
+  font-family: 'africa-large'
+}
+
+@font-face{
+  src: url(fonts/SafariColorway.ttf);
+  font-family: 'africa'
 }
 
 @font-face{
@@ -88,6 +111,16 @@ body{
   to {color: rgb(57, 204, 140);}
 
 
-  from {font-size: 100%;}
-  to {font-size: 125%;}
+  from {font-size: 50%;}
+  to {font-size: 225%;}
+}
+
+@keyframes hoverEffect1 {
+  
+  from {color: white;}
+  to {color: rgb(57, 204, 140);}
+
+
+  from {font-size: 50%;}
+  to {font-size: 225%;}
 }
