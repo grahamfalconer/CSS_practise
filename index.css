@@ -6,6 +6,7 @@ body{
 }
 
 a{
+  color: black;
   padding: 10px;
   border-radius: 5px;
   animation-name: shrinkToNormal;
@@ -16,7 +17,7 @@ a:hover{
   color: rgb(57, 204, 140);
   padding: 5px;
   border-radius: 5px;
-  background-color: black;
+  background-color: khaki;
   border: black;
   cursor: pointer;
   animation-name: growOnHover;
@@ -35,9 +36,7 @@ a:hover{
 .navbar{
   color: aquamarine;
 }
-h1{
-  display: inline;
-}
+
 
 .centered{
   margin: auto;
@@ -116,8 +115,7 @@ h1{
 
 /* animations */
 @keyframes colourChanger {
-
-  from {color: white;}
+  from {color: black;}
   to {color: rgb(57, 204, 140);}
 
 
@@ -126,8 +124,7 @@ h1{
 }
 
 @keyframes growOnHover {
-  
-  from {color: white;}
+  from {color: black;}
   to {color: rgb(57, 204, 140);}
 
 
@@ -138,14 +135,4 @@ h1{
   to {opacity: 100%;}
 }
 
-@keyframes shrinkToNormal {
 
-  from {opacity: 20%;}
-  to {opacity: 100%;}
-
-  from {color: rgb(57, 204, 140);}
-  to {color: white;}
-
-  from {font-size: 175%;}
-  to {font-size: 100%;}
-}
