@@ -5,13 +5,23 @@ body{
   font-family: new-curly;
 }
 
+a{
+  padding: 10px;
+  border-radius: 5px;
+  animation-name: shrinkToNormal;
+  animation-duration: 2;
+}
+
 a:hover{
+
+  padding: 5px;
+  border-radius: 5px;
   background-color: black;
   border: black;
   cursor: pointer;
-  animation-name: colourChanger;
-  font-size: 200%;
-  animation-duration: 5s;
+  animation-name: growOnHover;
+  font-size: 175%;
+  animation-duration: 2s;
 }
 
 .textBox{
@@ -115,12 +125,27 @@ h1{
   to {font-size: 225%;}
 }
 
-@keyframes hoverEffect1 {
+@keyframes growOnHover {
   
   from {color: white;}
   to {color: rgb(57, 204, 140);}
 
 
-  from {font-size: 50%;}
-  to {font-size: 225%;}
+  from {font-size: 100%;}
+  to {font-size: 175%;}
+
+  from {opacity: 20%;}
+  to {opacity: 100%;}
+}
+
+@keyframes shrinkToNormal {
+
+  from {opacity: 20%;}
+  to {opacity: 100%;}
+
+  from {color: rgb(57, 204, 140);}
+  to {color: white;}
+
+  from {font-size: 175%;}
+  to {font-size: 100%;}
 }
