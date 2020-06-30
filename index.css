@@ -13,7 +13,7 @@ a{
 }
 
 a:hover{
-
+  color: rgb(57, 204, 140);
   padding: 5px;
   border-radius: 5px;
   background-color: black;
