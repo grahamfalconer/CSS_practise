@@ -1,4 +1,21 @@
 
+
+body{
+  background-image: url(images/white-diamond.jpg);
+  font-family: new-curly;
+}
+
+.textBox{
+  opacity: 80%;
+  background-color: darkolivegreen;
+  filter: contrast(180%);
+  color: wheat;
+}
+
+.navbar{
+  color: aquamarine;
+}
+
 .centered{
   margin: auto;
   width: 50%;
@@ -11,24 +28,66 @@
 }
 
 #name{
-  font-family: threeDee;
-  font-size: 6rem;
+  font-family: new-curly-bold;
+  font-size: 100%;
 }
 
-.dynamicBackground{
-  background-color: coral;
-  color: aqua;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.dynamicText{
+  color: rgb(57, 204, 140);
+  font-size: 125%;
   animation-name: colourChanger;
-  animation-duration: 20s;
+  animation-duration: 2.5s;
 }
 
+
+/* fonts */
 @font-face {
   src: url(fonts/3dlet.ttf);
   font-family: 'threeDee';
 }
 
+@font-face{
+  src: url(fonts/Orbitron-Regular.ttf);
+  font-family: 'new-modern';
+}
+
+@font-face{
+  src: url(fonts/Orbitron-Medium.ttf);
+  font-family: 'new-modern-medium';
+}
+
+
+@font-face{
+  src: url(fonts/Orbitron-Bold.ttf);
+  font-family: 'new-modern-bold';
+}
+
+@font-face{
+  src: url(fonts/MonoglycerideDemiBold.ttf);
+  font-family: 'new-curly';
+}
+
+@font-face{
+  src: url(fonts/MonoglycerideDemiBold.ttf);
+  font-family: 'new-curly-bold';
+}
+
+
+/* animations */
 @keyframes colourChanger {
-  from {background-color: steelblue;}
-  to {background-color: coral;
-  }
+
+  from {color: white;}
+  to {color: rgb(57, 204, 140);}
+
+
+  from {font-size: 100%;}
+  to {font-size: 125%;}
 }
