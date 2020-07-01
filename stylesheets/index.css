@@ -112,43 +112,43 @@ a{
 
 /* fonts */
 @font-face {
-  src: url(fonts/3dlet.ttf);
+  src: url(/CSS_practise/fonts/3dlet.ttf);
   font-family: 'threeDee';
 }
 
 @font-face{
-  src: url(fonts/Afrika\ Safari\ Rebuild\ St.ttf);
+  src: url(/CSS_practise/fonts/Afrika\ Safari\ Rebuild\ St.ttf);
   font-family: 'africa-large'
 }
 
 @font-face{
-  src: url(fonts/SafariColorway.ttf);
+  src: url(/CSS_practise/fonts/SafariColorway.ttf);
   font-family: 'africa'
 }
 
 @font-face{
-  src: url(fonts/Orbitron-Regular.ttf);
+  src: url(/CSS_practise/fonts/Orbitron-Regular.ttf);
   font-family: 'new-modern';
 }
 
 @font-face{
-  src: url(fonts/Orbitron-Medium.ttf);
+  src: url(/CSS_practise/fonts/Orbitron-Medium.ttf);
   font-family: 'new-modern-medium';
 }
 
 
 @font-face{
-  src: url(fonts/Orbitron-Bold.ttf);
+  src: url(/CSS_practise/fonts/Orbitron-Bold.ttf);
   font-family: 'new-modern-bold';
 }
 
 @font-face{
-  src: url(fonts/MonoglycerideDemiBold.ttf);
+  src: url(/CSS_practise/fonts/MonoglycerideDemiBold.ttf);
   font-family: 'new-curly';
 }
 
 @font-face{
-  src: url(fonts/MonoglycerideDemiBold.ttf);
+  src: url(/CSS_practise/fonts/MonoglycerideDemiBold.ttf);
   font-family: 'new-curly-bold';
 }
 
