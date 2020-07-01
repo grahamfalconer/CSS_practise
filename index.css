@@ -44,8 +44,6 @@ a:hover{
 #bottombar{
   position: absolute;
   bottom: 0;
-
-
 }
 
 .centered{
@@ -57,6 +55,16 @@ a:hover{
 .itemsCentered{
   text-align: center;
   align-items: center;
+}
+
+.nav-panel{
+  background-image: url(images/white-diamond.jpg);
+  min-height: 300%;
+  background-position: 0px;
+  opacity: 80%;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 1000px;
 }
 
 #tagline{
@@ -76,12 +84,10 @@ a:hover{
   font-family: africa-large;
   font-size: 225%;
   color: khaki ;
-  background-color: chocolate;
   opacity: 76%;
 }
 
 .dynamicText{
-  color: rgb(57, 204, 140);
   font-size: 225%;
   animation-name: colourChanger;
   animation-duration: 2.5s;
@@ -134,7 +140,7 @@ a:hover{
 /* animations */
 @keyframes colourChanger {
   from {color: black;}
-  to {color: rgb(57, 204, 140);}
+  to {color:khaki;}
 
 
   from {font-size: 100%;}
