@@ -2,7 +2,7 @@
 
 body{
   background-color: black;
-  /* background-image: url(images/African-weave.jpg); */
+  background-image: url(images/African-weave.jpg);
   font-family: new-curly;
 }
 
@@ -29,6 +29,11 @@ a:hover{
   background-color: transparent;
   filter: contrast(200%);
   color: wheat;
+}
+
+.largeTextBlock{
+  font-size: 20px;
+
 }
 
 .navbar{
@@ -88,7 +93,7 @@ a{
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-  opacity: 30%;
+  opacity: 85%;
 }
 
 #name{
