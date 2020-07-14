@@ -2,7 +2,7 @@
 
 body{
   background-color: black;
-  background-image: url(images/African-weave.jpg);
+  background-image: url(/images/African-weave.jpg);
   font-family: new-curly;
 }
 
@@ -19,9 +19,10 @@ a:hover{
   cursor: pointer;
   animation-name: growOnHover;
   animation-timing-function: ease-out;
-  animation-duration: 2s;
+  animation-duration: 1s;
   opacity: 100%;
 }
+
 
 .textBox{
   font-family: africa-large;
@@ -38,9 +39,12 @@ a:hover{
 
 .navbar{
   color: aquamarine;
-  background-color: black;
   padding-bottom: 15px;
+  padding-top: 15px;
+  opacity: 90%;
+  border-radius: 10px;
 }
+
 #testNav{
   margin-bottom: 0px;
   display: inline-block;
@@ -112,43 +116,43 @@ a{
 
 /* fonts */
 @font-face {
-  src: url(/CSS_practise/fonts/3dlet.ttf);
+  src: url(/fonts/.ttf);
   font-family: 'threeDee';
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/Afrika\ Safari\ Rebuild\ St.ttf);
+  src: url(/fonts/Afrika\ Safari\ Rebuild\ St.ttf);
   font-family: 'africa-large'
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/SafariColorway.ttf);
+  src: url(/fonts/SafariColorway.ttf);
   font-family: 'africa'
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/Orbitron-Regular.ttf);
+  src: url(/fonts/Orbitron-Regular.ttf);
   font-family: 'new-modern';
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/Orbitron-Medium.ttf);
+  src: url(/fonts/Orbitron-Medium.ttf);
   font-family: 'new-modern-medium';
 }
 
 
 @font-face{
-  src: url(/CSS_practise/fonts/Orbitron-Bold.ttf);
+  src: url(/fonts/Orbitron-Bold.ttf);
   font-family: 'new-modern-bold';
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/MonoglycerideDemiBold.ttf);
+  src: url(/fonts/MonoglycerideDemiBold.ttf);
   font-family: 'new-curly';
 }
 
 @font-face{
-  src: url(/CSS_practise/fonts/MonoglycerideDemiBold.ttf);
+  src: url(/fonts/MonoglycerideDemiBold.ttf);
   font-family: 'new-curly-bold';
 }
 
@@ -161,6 +165,12 @@ a{
 
   from {font-size: 100%;}
   to {font-size: 225%;}
+}
+
+@keyframes dropPane{
+  from {padding-bottom: 15px;}
+  to {padding-bottom: 215px;}
+
 }
 
 @keyframes growOnHover {
